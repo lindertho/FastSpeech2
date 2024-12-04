@@ -111,8 +111,13 @@ __pycache__
 montreal-forced-aligner/
 
 # data, checkpoint, and models
+data/
+preprocessed_data/
 raw_data/
 output/
 *.npy
 TextGrid/
 hifigan/*.pth.tar
+config/HUI/model_test.yaml
+config/HUI/preprocess_test.yaml
+config/HUI/train_test.yaml
